@@ -23,7 +23,7 @@ startBtn.onclick = function() {
         // Write The Name In The Game
         yourName.textContent = capitalizeWordFunction(theInput.value);
 
-        var seconds = 299;
+        var seconds = 179;
     countDown = setInterval(() => {
         
     const minutes = Math.floor(seconds / 60),
